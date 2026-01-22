@@ -1,6 +1,6 @@
 const dropdownOptions = require("../models/dropdownOptions.js");
 const ServiceDropdown = require("../Models/ServiceDropdown.js");
-const razorpayInstance = require("../config/razorpay");
+const razorpayInstance = require("../config/razorpay.js");
 const sendMail = require("../utilies/sendMail.js");
 const crypto = require("crypto");
 // Get dropdown categories + subcategories

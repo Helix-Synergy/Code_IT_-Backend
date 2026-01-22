@@ -5,7 +5,7 @@ const {
   saveServiceSelection,
   getAllPayments
 } = require("../controllers/dropdownController");
-const { verifyPayment } = require("../controllers/dropdownController");
+const { verifyPayment } = require("../controllers/dropdowncontroller.js");
 // Routes
 router.get("/options", getDropdownOptions);
 router.post("/save", saveServiceSelection);
