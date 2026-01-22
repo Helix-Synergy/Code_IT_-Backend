@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 const dropdownRoutes = require("./routes/dropdownroutes.js");
-const paymentRoutes = require("./routes/dropdownroutes.js");
+const paymentRoutes = require("./routes/dropdownroutes.js")
 app.use("/dropdown", dropdownRoutes);
 // post
 app.use("/serviceselection", dropdownRoutes);
