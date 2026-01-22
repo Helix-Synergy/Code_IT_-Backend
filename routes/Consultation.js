@@ -5,7 +5,7 @@ const {
   SubmitEmail,
   GetConsultationDetails,
   GetAllEmails
-} = require("../Controllers/consultationController");
+} = require("../Controllers/consultationcontroller.js");
 
 // Consultation Form Route
 router2.post("/consultationForm", consultationForm);
