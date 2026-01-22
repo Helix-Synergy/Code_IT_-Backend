@@ -12,26 +12,26 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
-const dropdownRoutes = require("./routes/dropdownRoutes");
-const paymentRoutes = require("./routes/dropdownRoutes");
+const dropdownRoutes = require("./routes/dropdownroutes.js");
+const paymentRoutes = require("./routes/dropdownroutes.js");
 app.use("/dropdown", dropdownRoutes);
 // post
 app.use("/serviceselection", dropdownRoutes);
 // get
-app.use("/getallpayments",dropdownRoutes)
+app.use("/getallpayments", dropdownRoutes);
 
 app.use("/api/payment", paymentRoutes);
 // Contact Routes
-const contact=require("./routes/ContactRoutes");
-app.use("/contact",contact);
+const contact = require("./routes/Contactroutes");
+app.use("/contact", contact);
 // Consultation Routes
-const consultationRoutes=require("./routes/Consultation.js");
-app.use("/consultation",consultationRoutes);
-app.use("/consultationDetails",consultationRoutes)
+const consultationRoutes = require("./routes/Consultation.js");
+app.use("/consultation", consultationRoutes);
+app.use("/consultationDetails", consultationRoutes);
 // News Letter Routes
-const newsletterRoutes=require("./routes/Consultation.js");
-app.use("/newsletter",newsletterRoutes);
-app.use("/getemail",newsletterRoutes);
+const newsletterRoutes = require("./routes/Consultation.js");
+app.use("/newsletter", newsletterRoutes);
+app.use("/getemail", newsletterRoutes);
 // Test Route
 app.get("/", (req, res) => {
   res.send("API is working");

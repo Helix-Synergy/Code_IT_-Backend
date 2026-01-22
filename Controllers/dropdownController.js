@@ -1,5 +1,5 @@
-const dropdownOptions = require("../models/dropdownOptions.js");
-const ServiceDropdown = require("../Models/ServiceDropdown.js");
+const dropdownOptions = require("../models/dropdownoptions.js");
+const ServiceDropdown = require("../Models/servicedropdown.js");
 const razorpayInstance = require("../config/razorpay.js");
 const sendMail = require("../utilies/sendMail.js");
 const crypto = require("crypto");

@@ -1,4 +1,4 @@
-const FormMessage = require("../Models/ContactForm");
+const FormMessage = require("../Models/contactform.js");
 async function Contact(req,res){
     try {
        const {name,email,message}=req.body;

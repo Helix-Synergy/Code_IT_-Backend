@@ -1,4 +1,4 @@
-const dropdownOptions = {
+const dropdownoptions = {
   Consulting: [
     "Digital Transformation",
     "Software Development",
@@ -29,4 +29,4 @@ const dropdownOptions = {
   ]
 };
 
-module.exports = dropdownOptions;
+module.exports = dropdownoptions;

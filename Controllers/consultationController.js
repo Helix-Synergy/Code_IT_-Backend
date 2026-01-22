@@ -1,5 +1,5 @@
-const EmailSubmissionSchema = require("../Models/NewsLetterEmail.js");
-const Consultation = require("../Models/consultationForm.js");
+const EmailSubmissionSchema = require("../Models/newsletteremail.js");
+const Consultation = require("../Models/consultationform.js");
 // Consultation Form Controller
 const consultationForm = async (req, res) => {
   try {
